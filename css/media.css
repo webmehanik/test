@@ -1,0 +1,106 @@
+@media(max-width:1199px) {
+	html {
+		font-size: 51%;
+	}
+	.catalog_pic {
+		right: -20rem;
+	}
+}
+@media(max-width:991px) {
+	html {
+		font-size: 38%;
+	}
+	.top_menu li {
+		margin-right: 3rem;
+	}
+}
+@media(max-width:767px) {
+	html {
+		font-size: 50%;
+	}
+	.container {
+		max-width: 480px;
+		margin: 0 auto;
+		padding: 0 1rem;
+	}
+	.container.full, .container-fluid {
+		padding: 0 .5rem;
+		max-width: 100%;
+	}
+	.visible-xs {
+		display: block!important;
+	}
+	.hidden-xs {
+		display: none!important;
+	}
+	.main {
+		background: url(../images/bg1.jpg) no-repeat top center;
+		background-size: cover;
+		height: 100%;
+		padding-bottom: 8rem;
+	}
+	.main_left {
+		width: 100%;
+	}
+	.main_right {
+		width: 60%;
+		margin: auto;
+		margin-top: 5rem;
+	}
+	.list, .pic_big {
+		width: 80%;
+		margin: auto;
+		margin-top: 5rem;
+	}
+	.sostav p {
+		font-size: 2rem;
+	}
+	#characteristic .pic {
+		width: 80%;
+		margin: auto;
+		margin-top: 5rem;
+	}
+	.specification {
+		width: 100%;
+	}
+	.specification p {
+		font-size: 2rem;
+	}
+	.rev_sl p {
+		font-size: 1.8rem;
+	}
+	.property li {
+		width: 70%;
+		font-size: 2rem;
+		margin-left: 15%;
+	}
+	.forma {
+		width: 90%;
+		margin: auto;
+		margin-top: 5rem;
+		order: 2;
+	}
+	#feedback .pic {
+		order: 1;
+	}
+}
+@media(max-width:470px) {
+	html {
+		font-size: 42%;
+	}
+}
+@media(max-width:400px) {
+	html {
+		font-size: 39%;
+	}
+}
+@media(max-width:365px) {
+	html {
+		font-size: 37%;
+	}
+}
+@media(max-width:359px) {
+	html {
+		font-size: 34%;
+	}
+}
